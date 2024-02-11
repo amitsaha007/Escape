@@ -1,0 +1,91 @@
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) { 
+    .test-para p::after {
+        bottom: 35%;
+        left: 44%;
+      }
+ }
+ 
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    .extra-padding{
+        padding: 15px;
+        margin: 30px;
+    }
+
+    .test-para p::after {
+        bottom: 35%;
+        left: 69%;
+      }
+ }
+
+
+ /* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .feature{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .extra-padding{
+        padding: 5px;
+        margin: 15px;
+    }
+
+    .test-para p::after {
+        bottom: 40%;
+        left: 39%;
+      }
+    }
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .feature p{
+        font-size: 14px;
+    }
+
+    .amazing-team .col-4{
+        width: 100%;
+    }
+    .web-dev .row{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .test-para{
+        width: 80%;
+    }
+    #col-reverse{
+        flex-direction: column-reverse;
+    }
+    .flex-md-col{
+        flex-direction: column;
+    }
+    .test-para p::after {
+        bottom: 35%;
+        left: 92%;
+    }
+    .feature{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    .feature .col-6{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 576px) { 
+    .test-para p::after {
+        bottom: 35%;
+        left: 21%;
+      }
+ }
+
+
+
+
+

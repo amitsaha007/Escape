@@ -1,0 +1,166 @@
+.top-background{
+    background-image: url("images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.top-background li a{
+    color: rgb(255, 255, 255);
+}
+
+.banner{
+    color: white;
+    margin-top: 70px;
+}
+
+.banner a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid aliceblue;
+    padding: 15px 35px;
+    transition-duration: 2s;
+  }
+
+  .banner a:hover {
+    color: #0a58ca;
+    border-color: #0a58ca;
+  }
+
+  .top-background .active{
+    color: #0a58ca;
+  }
+
+  .left.align{
+    display: flex;
+    align-items: flex-start; 
+  }
+
+.padding-top-bottom{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.identity-brand{
+    background-color: #c5c5c5;
+}
+
+.feature{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.feature img{
+    width:120px;
+    height:120px;
+}
+
+.test-para {
+  display: flex;
+  width: 50%;
+  height: auto;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 3px;
+  background: rgb(255, 255, 255);
+  position: relative;
+}
+
+.awesome-client .row{
+  padding: 25px;
+}
+
+.test-color-p{
+  color: rgb(72, 107, 139);
+  
+}
+
+.test-para p::before,
+.test-para p::after {
+  content: '"';
+  position: absolute;
+  font-size: 30px;
+}
+
+.test-para p::before {
+  top: 6px;
+  left: 3px;
+}
+
+.test-para p::after {
+  bottom: 35%;
+  left: 21%;
+}
+
+.test-logos{
+  gap: 30px;
+}
+
+.awesome-client{
+  padding: 30px;
+}
+
+.amazing-team{
+  background-color: black;
+  padding: 30px;
+  color: white;
+}
+
+.amazing-team-heading{
+  color: #ffffff;
+}
+
+.amazing-team .row img{
+  display: inline;
+}
+
+.extra-padding{
+  padding: 20px; 
+  margin: 40px;
+}
+
+.prof-light{
+  color: antiquewhite;
+  margin-bottom: 20px;
+}
+
+.grey-color{
+  color: rgb(121, 120, 120)
+}
+
+.team-bottom-width{
+  width: 50%;
+  text-align: center;
+}
+
+.footer{
+  background-color: rgb(117, 143, 196);
+  color: white;
+}
+
+.footer-bottom {
+  padding: 25px 25px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+hr{
+  margin: auto;
+  width: 85%;
+  border-width: 2px;
+  opacity: 1;
+}
+
+textarea {
+  resize: none;
+}
+
+.font-light{
+  font-weight:400;
+}
+
